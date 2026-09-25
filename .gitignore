@@ -10,3 +10,9 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 运行数据（SQLite 等）不进入源码管理
+var/
+*.db
+*.db-wal
+*.db-shm
